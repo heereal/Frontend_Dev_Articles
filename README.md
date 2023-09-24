@@ -1,4 +1,4 @@
-# Today I Read
+# Frontend Dev Articles
 
 매일 출퇴근길에 읽은 기술 아티클들을 정리합니다.   
 주로 Velog와 Medium에서 React와 JavaScript 등 프론트엔드 분야의 글을 읽습니다.   
