@@ -7,7 +7,7 @@
 
 ## React
 - [Rendering](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Rendering.md)
-- [React Server Components](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Server_Components.md)
+- [React Server Components (RSC)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Server_Components.md)
 - [Suspense](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Suspense.md)
 
 
@@ -22,7 +22,7 @@
 
 ## Algorithm
 ### Tree
-- [DFS (Depth First Search)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithm/Tree/DFS.md)
+- [Depth First Search (DFS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithm/Tree/DFS.md)
 
 
 ## Architecture
@@ -30,7 +30,7 @@
 
 
 ## Design Pattern
-- [Command Query Separation](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Pattern/Command_Query_Separation.md)
+- [Command Query Separation (CQS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Pattern/Command_Query_Separation.md)
 
 
 
