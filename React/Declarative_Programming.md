@@ -13,6 +13,7 @@ foreach(var num in collection)
 // 선언형(Declarative) 프로그래밍
 var results = collection.Where( num => num % 2 != 0);
 ```
+> Here, we're saying "Give us everything where it's odd", not "Step through the collection. Check this item, if it's odd, add it to a result collection.”
 - 프로그램이 목적지까지 도착하기 위해 어떻게 해야할지를 하나씩 알려주는 것(Imperative)이 아니라, **"내가 원하는 동작"을 명시하는 코드를 작성**하는 것을 의미한다.
 
 <br/>
