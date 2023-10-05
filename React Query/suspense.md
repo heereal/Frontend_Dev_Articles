@@ -20,5 +20,5 @@ root.render(
 // 각각의 쿼리에서 설정
 const { data } = useQuery({ queryKey: ["todos"], queryFn: fetchTodos, suspense: true });
 ```
-- React Query v4에서 suspense 옵션을 사용하면, useQuery를 **리액트의 Suspense와 함께 사용**할 수 있다.
+- React Query v4에서 suspense 옵션을 사용하면, **useQuery를 리액트의 Suspense와 함께 사용**할 수 있다.
 - suspense 옵션은 전역 또는 각각의 쿼리 레벨에서 설정 할 수 있다.
