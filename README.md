@@ -52,5 +52,5 @@
 - [상품 상세페이지 더보기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%8D%94%EB%B3%B4%EA%B8%B0)
   
 ## 인상 깊은 프로젝트
-- [제품 개발로 5,500만원의 월 수익을 올리는 개발자의 이야기](https://github.com/heereal/Frontend_Dev_Articles/edit/main/Projects/README.md#5500%EB%A7%8C%EC%9B%90%EC%9D%98-%EC%9B%94-%EC%88%98%EC%9D%B5%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0)
+- [제품 개발로 5,500만원의 월 수익을 올리는 개발자의 이야기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Projects/README.md#5500%EB%A7%8C%EC%9B%90%EC%9D%98-%EC%9B%94-%EC%88%98%EC%9D%B5%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0)
   
