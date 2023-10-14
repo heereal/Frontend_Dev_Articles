@@ -3,3 +3,14 @@
 <img src="https://velog.velcdn.com/images/jiwonyyy/post/9ba23590-fe16-4d48-8381-f89a7787ba20/image.png" width="40%">
 
 > [상품 상세페이지 열기/접기 만들기](https://velog.io/@jiwonyyy/%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%97%B4%EA%B8%B0%EC%A0%91%EA%B8%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+
+<br/>
+
+## Next.js SSR 환경에서 다크모드 구현하기
+<img src="https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/d5a772e8-1bc7-4d3c-8b84-c65ca6f5e39a" width="40%">
+
+> [SSR 환경의 다크모드 깜빡임 현상 해결하기](https://velog.io/@seungchan__y/SSR-%ED%99%98%EA%B2%BD%EC%9D%98-%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C-%EA%B9%9C%EB%B9%A1%EC%9E%84-%ED%98%84%EC%83%81-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0#html-blocking)
+
+- Next.js SSR 환경에서 로컬 스토리지와 시스템 설정 값을 활용한 다크모드 구현 코드를 확인할 수 있다.
+- 초기 렌더링 시 default 값과 로컬 스토리지에 저장된 유저가 선택한 테마 값이 충돌하여 발생하는 화면 깜박인 현상을 `HTML Blocking`을 통해 해결하였다.
+  - `HTML Blocking`은 렌더링 과정 중에 `script` 태그를 만났을 때 HTML 파싱이 중단되는 현상을 의미한다.
