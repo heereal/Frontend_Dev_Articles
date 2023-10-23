@@ -61,6 +61,5 @@ function ProfileTimeline() {
 
 ## reference
 > [Conceptual Model of React Suspense](https://blog.mathpresso.com/conceptual-model-of-react-suspense-a7454273f82e)   
-> [React Suspense in three different architectures](https://elanmed.dev/blog/suspense-in-different-architectures)   
-> [[번역] 세 가지 아키텍처에서의 리액트 Suspense](https://velog.io/@lky5697/suspense-in-different-architectures)
+> [React Suspense in three different architectures](https://elanmed.dev/blog/suspense-in-different-architectures) / [[번역] 세 가지 아키텍처에서의 리액트 Suspense](https://velog.io/@lky5697/suspense-in-different-architectures)
 
