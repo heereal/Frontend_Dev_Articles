@@ -23,3 +23,15 @@
 - 일반 함수는 렌더링될 때 기존 함수는 가비지 컬렉션되고 새로운 함수가 생성되는 단순한 작업을 한다.
 - 반면, `useCallback`을 사용하면 의존성 확인을 위해 종속된 값들의 참조를 가지고 있어야 하며, 매 렌더링 시마다 해당 값들을 비교해야 한다. 함수 정의를 위해서 배열을 할당해야 하고 이는 메모리에 저장된다.
 
+<br/>
+
+## 메모이제이션은 망가지기 쉽다.
+- 컴포넌트가 메모이제이션 되면 React는 각각의 props를 [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)로 비교한다.
+- 하지만 `props`는 렌더링 될 때마다 새로운 객체가 생성되기 때문에 매번 리렌더링된다.
+- 컴포넌트가 `children`을 전달받을 때에도 렌더링할 때마다 `React.createElement`로 새로운 객체를 생성하기 때문에 메모이제이션이 의미 없어진다.
+
+<br/>
+
+## Reference
+> [성능 하면 빠질 수 없는 메모이제이션, 네가 궁금해](https://d2.naver.com/helloworld/9223303)   
+> [The Uphill Battle of Memoization](https://tkdodo.eu/blog/the-uphill-battle-of-memoization) / [[번역] 메모이제이션 고지전](https://velog.io/@cnsrn1874/the-uphill-battle-of-memoization)
