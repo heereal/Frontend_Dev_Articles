@@ -25,7 +25,7 @@
 
 <br/>
 
-## 메모이제이션은 망가지기 쉽다.
+## Memoization은 망가지기 쉽다.
 - 컴포넌트가 메모이제이션 되면 React는 각각의 props를 [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)로 비교한다.
 - 하지만 `props`는 렌더링 될 때마다 새로운 객체가 생성되기 때문에 매번 리렌더링된다.
 - 컴포넌트가 `children`을 전달받을 때에도 렌더링할 때마다 `React.createElement`로 새로운 객체를 생성하기 때문에 메모이제이션이 의미 없어진다.
