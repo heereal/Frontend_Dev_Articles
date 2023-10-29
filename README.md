@@ -48,6 +48,7 @@
 
 ## Network
 - [CORS](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/CORS.md)
+- [멱등성](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/Idempotency.md)
 
 ## Bundler
 - [Bun](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Bundler/Bun.md)
@@ -77,4 +78,9 @@
   
 ## 인상 깊은 프로젝트
 - [제품 개발로 5,500만원의 월 수익을 올리는 개발자의 이야기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Projects/README.md#5500%EB%A7%8C%EC%9B%90%EC%9D%98-%EC%9B%94-%EC%88%98%EC%9D%B5%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0)
+- [혼자서 만든 사이드 프로젝트를 수십 억 원에 매각한 29살 비전공자 이야기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Projects/README.md#%ED%98%BC%EC%9E%90%EC%84%9C-%EB%A7%8C%EB%93%A0-%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%88%98%EC%8B%AD-%EC%96%B5-%EC%9B%90%EC%97%90-%EB%A7%A4%EA%B0%81%ED%95%9C-29%EC%82%B4-%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90-%EC%9D%B4%EC%95%BC%EA%B8%B0)
+
+## Mindset
+- [협업을 잘하는 개발자가 되어보자 - 프로그래머가 아니라 문제 해결사가 되자!](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Mindset/README.md#%ED%98%91%EC%97%85%EC%9D%84-%EC%9E%98%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90)
+
   
