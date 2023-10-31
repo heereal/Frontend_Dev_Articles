@@ -1,8 +1,4 @@
 # Prototype
-> [Prototype에 대해 이해하기](https://velog.io/@seungchan__y/Prototype%EC%97%90-%EB%8C%80%ED%95%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
-
-<br/>
-
 ## 프로토타입이란?
 - 자바스크립트는 다른 상속 기반의 언어와 달리 프로토타입 기반의 언어로, **모든 객체는 특정 객체를 원형(prototype)으로 삼고 이를 복제(참조)** 하는 방식을 통해 상속과 비슷한 효과를 가진다.
 
@@ -97,3 +93,24 @@ arr(.__proto__)(.__proto__).hasOwnProperty(2); // Object에 정의된 메소드
 - 모든 데이터 타입은 `prototype`을 가지고 `prototype`은 `Object` 형태를 가지기 때문에 `prototype` 체인의 최상단에는 `Object`가 존재한다.
 - 따라서 모든 데이터 타입에서 `Object` 프로토타입에 정의된 메소드들에 접근할 수 있게 된다. `hasOwnProperty`가 대표적인 예이다.
 - 하지만 `Object`의 모든 메소드가 모든 데이터 타입에서 사용될 수 있게 설계되어 있지는 않다. 그러한 메소드들은 `Obejcts.keys(...)`와 같이 `Object` 키워드와 함께 사용한다.
+
+<br/>
+
+## instanceof 연산자
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+const me = new Person('Lee');
+console.log(me instanceof Person); // true
+console.log(me instanceof Object); // true
+```
+- 좌변에 `객체`를 가리키는 식별자, 우변에 `생성자 함수`를 가리키는 식별자를 피연산자로 받는 이항 연산자다.
+- `instanceof` 연산자는 생성자 함수의 `prototype`에 바인딩된 객체가 프로토타입 체인 상에 존재하는지 확인한다.
+
+<br/>
+
+## References
+- [Prototype에 대해 이해하기](https://velog.io/@seungchan__y/Prototype%EC%97%90-%EB%8C%80%ED%95%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- [Javascript - instanceof 연산자와 프로토타입 체인](https://velog.io/@dev-redo/Javascript-instanceof-%EC%97%B0%EC%82%B0%EC%9E%90%EC%99%80-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%B2%B4%EC%9D%B8)
