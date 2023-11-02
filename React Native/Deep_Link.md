@@ -1,5 +1,5 @@
 # Deep Link
-> [Android, iOS 웹뷰에서 딥링크 열기](https://blog.tossbusiness.com/articles/dev-4?utm_source=tossbusiness&utm_medium=blog&utm_campaign=dev-10)
+> [Android, iOS 웹뷰에서 딥링크 열기](https://blog.tossbusiness.com/articles/dev-4?utm_source=tossbusiness&utm_medium=blog&utm_campaign=dev-10)   
 > [딥링크 실전에서 잘 사용하는 방법](https://blog.tossbusiness.com/articles/dev-10)
 
 <br/>
