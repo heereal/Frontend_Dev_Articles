@@ -20,3 +20,9 @@
 ## 한글 받침에 따라서 은/는 이/가 처리하기
 > [한국어 은/는 이/가 와/가 javascript로 처리하기](https://velog.io/@hjkdw95/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%9D%80%EB%8A%94-%EC%9D%B4%EA%B0%80-%EC%99%80%EA%B0%80-javascript%EB%A1%9C-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0)
 - `charCodeAt` 메소드를 사용해서 문자를 유니코드로 변환한 후 분해하여, 마지막 글자의 종성(받침)에 따라 '와/과'를 구분한다.
+
+<br/>
+
+## SSE(Server Sent Events)로 실시간 채팅 구현하기
+> [React와 SSE(Server Sent Events)로 실시간 채팅 구현하기](https://velog.io/@hafnium1923/React%EC%99%80-SSEServer-Sent-Events%EB%A1%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+- 한 번 연결 요청을 보내면 이벤트가 발생할 때마다 서버에서 응답을 자유롭게 보낼 수 있고, HTTP프로토콜을 이용하기 때문에 훨씬 가볍고 구현 비용이 낮다는 장점으로 SSE를 선택해 실시간 채팅을 구현하였다.
