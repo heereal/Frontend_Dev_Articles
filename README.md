@@ -33,15 +33,18 @@
 - [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
 - [이벤트 루프안?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop.md)
-  
-## React Query
-- [Custom Hooks](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Custom%20Hooks.md)
-- [useInfiniteQuery](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/useInfiniteQuery.md)
-- [refetchOnWindowFocus](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/refetchOnWindowFocus.md)
 
 ## Next.js
 - [초기 세팅](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Next.js/Initialization.md)
 - [@next/font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Next.js/next_font.md)
+
+### Next.js 공식 문서 
+- [Route Handlers](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Next.js/Next.js%20Documentation/Route_Handlers.md)
+
+## React Query
+- [Custom Hooks](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Custom%20Hooks.md)
+- [useInfiniteQuery](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/useInfiniteQuery.md)
+- [refetchOnWindowFocus](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/refetchOnWindowFocus.md)
 
 ## React Native
 - [Deep Link](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Native/Deep_Link.md)
@@ -70,6 +73,9 @@
   
 ## SQL
 - [Cursor based Pagination](https://github.com/heereal/Frontend_Dev_Articles/blob/main/SQL/Cursor_based_Pagination.md)
+
+## AWS
+- [EC2](https://github.com/heereal/Frontend_Dev_Articles/blob/main/AWS/EC2.md)
   
 ## Architecture
 - [Exception Handling](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Architecture/Exception_Handling.md)
@@ -83,6 +89,7 @@
 
 ## 기타
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
+- [ESLint vs Prettier](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/ESLint_vs_Prettier.md)
   
 ## 기능 구현
 - [상품 상세페이지 더보기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%8D%94%EB%B3%B4%EA%B8%B0)
