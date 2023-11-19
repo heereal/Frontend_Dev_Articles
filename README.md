@@ -6,11 +6,12 @@
 <br/>
 
 ## React
-- [기초 개념](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/General.md)
-- [Declarative Programming (선언형 프로그래밍)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Declarative_Programming.md)
+- [리액트 기초 개념](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/General.md)
+- [Concurrent](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Concurrent.md)
+- [선언형 프로그래밍](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Declarative_Programming.md)
 - [Error Boundary](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Error_Boundary.md)
 - [Memoization](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Memoization.md)
-- [Modal](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Modal.md)
+- [모달 효율적으로 관리하기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Modal.md)
 - [Portals](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Portals.md)
 - [React Server Components (RSC)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Server_Components.md)
 - [Rendering](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Rendering.md)
@@ -18,6 +19,7 @@
 - [setState는 왜 비동기적으로 동작할까?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/setState.md)
 - [useEffect vs useLayoutEffect](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/useEffect_vs_useLayoutEffect.md)
 - [useState vs useRef](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/useState_vs_useRef.md)
+- [리액트 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Performance_Optimizations.md)
 
 ### React 공식 문서
 - [Sharing State Between Components](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/Sharing_State_Between_Components.md)
@@ -30,9 +32,11 @@
 - [gif를 video로 대체해야 하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/video.md)
 
 ## JavaScript
+- [비동기 함수](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Async_Function.md)
 - [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
-- [이벤트 루프안?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop.md)
+- [이벤트 루프의 실행 과정](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop.md)
+- [이벤트 루프와 Task Queue](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop_Task_Queue.md)
 
 ## Next.js
 - [초기 세팅](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Next.js/Initialization.md)
@@ -45,18 +49,25 @@
 - [Custom Hooks](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Custom%20Hooks.md)
 - [useInfiniteQuery](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/useInfiniteQuery.md)
 - [refetchOnWindowFocus](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/refetchOnWindowFocus.md)
+- [Inside React Query](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Inside_React_Query.md)
 
 ## React Native
 - [Deep Link](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Native/Deep_Link.md)
 
 ## 알고리즘
+- [Recursive Call](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithms/Recursive_Call.md)
+  
 ### Tree
 - [Depth First Search (DFS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithm/Tree/DFS.md)
 
 ## 자료구조
 - [Hash Table](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Data%20Structures/Hash_table.md)
+- [Graph](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Data%20Structures/Graph.md)
 
-## Rendering Strategies
+## Rendering
+- [브라우저가 읽는 법](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Rendering/Browser_Rendering_Parsing.md)
+
+### Rendering Strategies
 - [Server Side Rendering (SSR)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Rendering%20Strategies/SSR.md)
 
 ## Network
@@ -83,6 +94,7 @@
 
 ## Design Pattern
 - [Command Query Separation (CQS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Pattern/Command_Query_Separation.md)
+- [Return Early Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Return_Early_Pattern.md)
 
 ## Web API
 - [IntersectionObserver](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Web%20APIs/IntersectionObserver.md)
