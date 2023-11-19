@@ -22,7 +22,7 @@
 
 <br/>
 
-## 코드 예시
+## Recoil을 사용한 모달 관리
 1. **모달 컴포넌트를 상태값으로 보관하기**
 ```javascript
 import { atom, useRecoilState } from 'recoil';
@@ -115,8 +115,153 @@ const ApplyButton = (...) => {
 ```
 - `openModal` 함수의 인자로 모달 컴포넌트와 그의 props 들을 넘긴다.
 
+<br/>
 
+---
 
+# 효율적인 모달 관리 방법
+> [[React] 효율적으로 모달 관리하기](https://leego.tistory.com/entry/React-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%AA%A8%EB%8B%AC-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0)
 
+<br/>
 
+## context API를 사용한 모달 관리
+1. **context 생성하기**
+```javascript
+// context/ModalProvider.js
 
+import React, { useState } from "react";
+
+export const ModalStateContext = React.createContext();
+export const ModalSetterContext = React.createContext();
+
+function ModalProvider({ children }) {
+  const [state, setState] = useState({
+            type: null,
+            props: null,
+    });
+
+  return (
+    <ModalSetterContext.Provider value={setState}>
+      <ModalStateContext.Provider value={state}>
+        {children}
+      </ModalStateContext.Provider>
+    </ModalSetterhContext.Provider>
+  );
+}
+
+export default ModalProvider;
+```
+-  state와 setter함수 각각의 context를 분리하여 불필요한 리렌더링을 방지한다.
+
+<br/>
+
+2. **Provider로 App 감싸기**
+```javascript
+// index.js
+import ModalProvider from "./context/ModalProvider";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <>
+    <ModalProvider>
+      <GlobalStyle />
+      <App />
+      <ModalContainer />
+    </ModalProvider>
+  </>
+);
+```
+- 생성한 `ModalProvider`로 `App`을 감싸준다.
+
+<br/>
+
+3. **useModal 커스텀 훅 생성하기**
+```
+// hooks/useModal.js
+
+import { useContext } from "react";
+import { ModalSetterContext } from "../context/ModalProvider";
+
+function useModal() {
+  const setModalState = useContext(ModalSetterSContext);
+
+  const openModal = ({ type, props = null }) => {
+    setModalState({type, props});
+  };
+
+  const closeModal = () => {
+    setModalState({type: null, props: null});
+  };
+
+  return { openModal, closeModal };
+}
+
+export default useModal;
+```
+- `useModal`이라는 커스텀 훅을 생성해서 context를 통해 제공받은 setter 함수를 사용하여 모달을 열고 닫는 로직을 구현하였다.
+
+<br/>
+
+4. **모달 오픈하기**
+```javascript
+function App() {
+  const { openModal } = useModal();
+
+  const onClickButton1 = () => {
+    openModal({ type: "first" });
+  };
+
+  const onClickButton2 = () => {
+    openModal({ type: "second" });
+  };
+
+  return (
+    <AppWrap>
+      <Button onClick={onClickButton1}>Click Me !</Button>
+      <Button className="blue" onClick={onClickButton2}>
+        Click Me !
+      </Button>
+        </AppWrap>
+    );
+}
+```
+- `useModal`에서 구현한 `openModal` 함수를 사용해서 모달을 띄운다.
+
+<br/>
+
+5. **모달 렌더링하기**
+```javascript
+// components/ModalContainer.js
+
+import React, { useContext } from "react";
+import { createPortal } from "react-dom";
+import { ModalStateContext } from "../../context/ModalProvider";
+import SampleModal from "./SampleModal";
+import SecondModal from "./SecondModal";
+
+const MODAL_COMPONENTS = {
+  first: SampleModal,
+  second: SecondModal,
+};
+
+function ModalContainer() {
+  const { type, props } = useContext(ModalStateContext);
+
+  if (!type) {
+    return null;
+  }
+
+  const Modal = MODAL_COMPONENTS[type];
+  return createPortal(
+    <>
+      <Modal {...props} />
+    </>,
+    document.getElementById("modal")
+  );
+}
+
+export default ModalContainer;
+```
+- 모달 컴포넌트 렌더링을 담당하는 컴포넌트를 생성한다.
+- 애플리케이션에서 사용하는 모든 모달 컴포넌트를 `import` 해서 `MODAL_COMPONENTS` 객체에 담아준다.
+- `ModalStateContext`로부터 전달받은 `type`에 해당하는 모달 컴포넌트를 렌더링 하고, `props` 값을 넘겨준다.
