@@ -90,7 +90,11 @@ arr(.__proto__)(.__proto__).hasOwnProperty(2); // Object에 정의된 메소드
 ```
 - `[1,2]`의 `__proto__`는 `Array`를 가리키고, 다시 `Array`의 `__proto__`는 `Object`를 가리킨다.
 - 이러한 관계 덕분에 `Array`의 인스턴스인 `[1,2]`는 `Array`의 메소드 뿐만 아니라 `Object`에서 정의된 메소드가 까지 사용할 수 있다.
-- 모든 데이터 타입은 `prototype`을 가지고 `prototype`은 `Object` 형태를 가지기 때문에 `prototype` 체인의 최상단에는 `Object`가 존재한다.
+
+<br/>
+
+- 객체 내부에서 해당 프로퍼티를 찾지 못하면 바로 `[[Prototype]]` 링크를 따라가 프로퍼티를 탐색한다.
+- 모든 데이터 타입은 `prototype`을 가지고 `prototype`은 `Object` 형태를 가지기 때문에 `prototype` 체인의 최상단에는 `Object.prototype`가 존재한다. 
 - 따라서 모든 데이터 타입에서 `Object` 프로토타입에 정의된 메소드들에 접근할 수 있게 된다. `hasOwnProperty`가 대표적인 예이다.
 - 하지만 `Object`의 모든 메소드가 모든 데이터 타입에서 사용될 수 있게 설계되어 있지는 않다. 그러한 메소드들은 `Obejcts.keys(...)`와 같이 `Object` 키워드와 함께 사용한다.
 
