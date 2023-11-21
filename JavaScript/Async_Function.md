@@ -33,9 +33,9 @@
 <img src="https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/00be4af1-fad8-40f4-a7cd-8868a169be35" width="500px">
 
 - Promise는 아래 세 가지 중 하나의 상태를 가진다.
-  - **대기(pending)**: 비동기 처리가 아직 수행되지 않은 상태
-  - **이행(fulfilled)**: 비동기 처리가 성공한 상태
-  - **거부(rejected)**: 비동기 처리가 실패한 상태
+  - **대기(Pending)**: 비동기 함수가 아직 시작하지 않은 상태
+  - **성공(Fulfilled)**: 비동기 함수가 성공적으로 완료된 상태
+  - **실패(Rejected)**: 비동기 함수가 실패한 상태
 - 생성 직후의 `Promise`는 `pending` 상태인데, 비동기 처리가 수행되면 상태가 변경된다.
 - 비동기 처리에 성공한다면 `resolve` 함수를 호출하고 `fulfilled` 상태가 된다.
 - 비동기 처리에 실패한다면 `reject` 함수를 호출하고 `rejected` 상태가 된다.
@@ -44,11 +44,14 @@
   
 <br/>
 
-## await이란?
-- `await`는 `Promise`가 `settled` 상태가 될 때까지 대기하다가 `settled` 상태가 되면 `Promise`가 `resolve`한 처리 결과를 반환한다.
+## async/await이란?
+- 함수를 정의할 때 `async`를 함수 앞에 붙이면, “이 함수는 비동기적인 함수이고 Promise를 반환한다”라고 선언하는 것이다.
+- `Promise`를 반환하는 함수 앞에 `await`를 붙이면 `Promise`가 `settled` 상태가 될 때까지 대기하다가 `settled` 상태가 되면 `Promise`가 `resolve`한 처리 결과를 반환한다.
 - 즉 `await`는 `Promise`의 비동기 처리가 성공 혹은 실패할 때까지 대기하다가, 성공했을 때 `resolve` 함수를 호출한 결과를 반환하고, 실패했을 때 `reject` 함수를 호출한 결과를 반환하는 것이다.
+- 에러 처리를 위해서는 `try/catch`를 사용한다.
 
 <br/>
 
 ## Reference
 - [그 async, 꼭 써야 하니?](https://velog.io/@greencloud/%EA%B7%B8-async-%EA%BC%AD-%EC%8D%A8%EC%95%BC-%ED%95%98%EB%8B%88)
+- [예제로 이해하는 async/await 문법](https://velog.io/@tosspayments/%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-awaitasync-%EB%AC%B8%EB%B2%95)
