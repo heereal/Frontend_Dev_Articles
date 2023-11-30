@@ -113,6 +113,62 @@ function TrendArticlesPage() {
 
 <br/>
 
+## tearing 현상이란?
+![image](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/c87eaa09-bbfc-4aa7-88cd-0e6a50a7778c)
+
+- tearing은 **UI의 시각적 불일치 현상을 의미**한다.
+- 예를 들면 UI의 한 곳에는 스토어가 업데이트되기 이전 값을, 다른 한 곳에서는 스토어가 업데이트된 이후의 값을 표시하는 경우가 있다.
+- 자바스크립트는 싱글 스레드이기 때문에 일반적으로 웹 개발에서는 이 문제가 발생하지 않지만 리액트에서는 동시성 기능을 도입하였기 때문에 `startTransition`이나 `Suspense`와 같은 동시성 기능을 사용할 때 Tearing 문제가 발생할 수 있다.
+
+<br/>
+
+```javascript
+setInterval(() => {
+  dispatch({ type: "increment" });
+}, 1000);
+
+function Counter({ index }: { index: number }) {
+  const store = useStore();
+  const now = performance.now();
+  while (performance.now() - now < 500) {
+    // 무거운 계산
+  }
+  
+... 생략
+
+function App() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  return (
+    <div className="App">
+      <button
+        onClick={() =>
+          React.startTransition(() => {
+            setIsOpen((prev) => !prev);
+          })
+        }
+      >
+        {isOpen ? "RESET" : "Tearing 확인하기"}
+      </button>
+      {isOpen && [...Array(5)].map((_, i) => <Counter key={i} index={i} />)}
+    </div>
+  );
+}
+```
+1. `setIsOpen`에 의한 렌더링은 `startTransition`으로 감싸져 있으므로 `Concurrent` 하게 렌더링된다. "Tearing 확인하기" 버튼을 누르면 렌더링이 시작된다.
+2. `Counter` 컴포넌트가 렌더링되기 시작한다. 하지만 무거운 연산이 내장되어 있기 때문에 천천히 렌더링된다.
+3. 이 때 1초가 지나서 `increment` 액션이 디스패치된다. 렌더링을 잠시 멈추고 스토어의 값을 업데이트한다.
+4. 렌더링이 다시 시작되고 나머지 `Counter` 컴포넌트를 렌더링한다.
+5. 렌더링 중간에 스토어가 업데이트 되었기 때문에 Tearing 현상이 발생한다.
+
+<img width="199" alt="image (1)" src="https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/fb5a0b2a-5cae-4572-810a-ea4f18479d58"> | ![image (2)](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/4cc2bd67-135d-4e55-aa1b-bc6735044a1b)
+--- | --- | 
+
+
+
+<br/>
+
 ## Reference
 - [React 18 Concurrent 로 UX 개선하기](https://velog.io/@seungchan__y/React-18-Concurrent-%EB%A7%9B%EB%B3%B4%EA%B8%B0)
 - [React 18 Concurrent Rendering](https://velog.io/@heelieben/React-18-Concurrent-Rendering)
+- [리액트에서 외부 시스템과 동기화하기](https://velog.io/@hyunjine/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C-%EC%99%B8%EB%B6%80-%EC%8B%9C%EC%8A%A4%ED%85%9C%EA%B3%BC-%EB%8F%99%EA%B8%B0%ED%99%94%ED%95%98%EA%B8%B0)
