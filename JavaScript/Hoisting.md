@@ -54,4 +54,4 @@
 <br/>
 
 ## Reference
-- [🔥🕺🏼 JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h)
+- [🔥🕺🏼 JavaScript Visualized: Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h) / [[ 번역 ] 자바스크립트 시각화 : 호이스팅](https://velog.io/@jjunyjjuny/%EB%B2%88%EC%97%AD-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%9C%EA%B0%81%ED%99%94-%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85)
