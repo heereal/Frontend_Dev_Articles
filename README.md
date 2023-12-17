@@ -1,6 +1,7 @@
 # Frontend Dev Articles
 
-매일 출퇴근길에 읽은 기술 아티클 중에서 다시 한 번 읽어 보면 좋을 글들을 요약해서 정리합니다.
+매일 출퇴근길에 읽은 기술 아티클 중에서   
+다시 한 번 읽어 보면 좋을 글들을 링크와 함께 요약해서 기록합니다.
 
 <br/>
 
@@ -21,6 +22,7 @@
 - [리액트 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Performance_Optimizations.md)
 
 ### React 공식 문서
+- [State as a Snapshot](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/State_as_a_Snapshot.md)
 - [Sharing State Between Components](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/Sharing_State_Between_Components.md)
 - [useLayoutEffect](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/useLayoutEffect.md)
 
@@ -33,10 +35,11 @@
 
 ## JavaScript
 - [비동기 함수](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Async_Function.md)
-- [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
-- [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
 - [이벤트 루프의 실행 과정](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop.md)
 - [이벤트 루프와 Task Queue](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop_Task_Queue.md)
+- [호이스팅이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Hoisting.md)
+- [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
+- [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [event.target과 event.currentTarget의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/event.target_vs_event.currentTarget.md)
 
 ## TypeScript
@@ -52,6 +55,7 @@
 ## React Native
 - [React Native New Architecture](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Native/Architecture.md)
 - [Deep Link](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Native/Deep_Link.md)
+- [Expo vs React Native CLI](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Native/Expo_vs_React_Native_CLI.md)
 
 ## React Query
 - [Custom Hooks](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Custom%20Hooks.md)
@@ -105,8 +109,12 @@
 ## Design Pattern
 - [Command Query Separation (CQS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Pattern/Command_Query_Separation.md)
 - [Return Early Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Return_Early_Pattern.md)
+- [Singleton Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Singleton_Pattern.md)
+- [Chain of Responsibility Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Chain_of_Responsibility_Pattern.md)
+- [Template Method Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Template_Method_Pattern.md)
 
 ## Web API
+- [Blob](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Web%20APIs/Blob.md)
 - [IntersectionObserver](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Web%20APIs/IntersectionObserver.md)
 
 ## 기타
@@ -115,6 +123,8 @@
 - [SVG와 PNG의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SVG.md)
 - [Three.js](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Three.js.md)
 - [ESLint vs Prettier](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/ESLint_vs_Prettier.md)
+- [Unicode](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Unicode.md)
+- [Web 3.0의 특징](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_3.0.md)
   
 ## 기능 구현
 - [상품 상세페이지 더보기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%8D%94%EB%B3%B4%EA%B8%B0)
@@ -128,5 +138,6 @@
 
 ## Mindset
 - [협업을 잘하는 개발자가 되어보자 - 프로그래머가 아니라 문제 해결사가 되자!](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Mindset/README.md#%ED%98%91%EC%97%85%EC%9D%84-%EC%9E%98%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90)
+- [힘들어하는 주니어들을 위하여](https://velog.io/@bo-like-chicken/%ED%9E%98%EB%93%A4%EC%96%B4%ED%95%98%EB%8A%94-%EC%A3%BC%EB%8B%88%EC%96%B4%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%98%EC%97%AC)
 
   
