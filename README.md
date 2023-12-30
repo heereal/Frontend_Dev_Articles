@@ -120,6 +120,7 @@
 ## 기타
 - [Tree Shaking](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Tree_Shaking.md)
 - [Token](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Token.md)
+- [JWT](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/JWT.md)
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
 - [SVG와 PNG의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SVG.md)
 - [Three.js](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Three.js.md)
