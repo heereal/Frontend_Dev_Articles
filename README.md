@@ -122,6 +122,7 @@
 - [Token](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Token.md)
 - [JWT](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/JWT.md)
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
+- [이미지 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Image%20Optimization.md)
 - [SVG와 PNG의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SVG.md)
 - [Three.js](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Three.js.md)
 - [ESLint vs Prettier](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/ESLint_vs_Prettier.md)
