@@ -22,3 +22,4 @@ export default function Counter() {
   )
 }
 ```
+- 각 렌더링의 상태 값은 고정되어 있으므로 첫 번째 렌더링의 이벤트 핸들러 내부의 숫자 값은 `setNumber(1)`을 몇 번 호출하든 항상 `0`이다.
