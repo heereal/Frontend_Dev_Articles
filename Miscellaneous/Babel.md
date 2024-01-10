@@ -29,6 +29,7 @@
 <br/>
 
 ## Babel 동작 과정
+1. Parsing (파싱)
 
 
 ## Reference
