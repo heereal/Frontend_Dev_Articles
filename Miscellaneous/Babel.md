@@ -29,8 +29,17 @@
 <br/>
 
 ## Babel 동작 과정
-1. Parsing (파싱)
+### 1. Parsing (파싱)
+- 소스 코드를 분석하여 `AST(Abstract Syntax Tree)`로 변환한다.
 
+### 2. Transformation (변환)
+- 이전 단계에서 생성된 `AST`를 브라우저가 지원하는 오래된 문법의 `AST`로 변경한다.
+- 즉, `@babel/traverse`을 사용하여 `AST`를 순회하는데 각 `AST` 노드들은 브라우저가 지원하는 코드를 나타내는 새로운 노드들로 대체되고 새로운 AST로 변경되는 것이다.
+
+### 3. Code Generation (코드 생성)
+- 바벨은 새로운 `AST`를 바탕으로 `@babel/generator`를 통하여 새로운 코드를 생성한다.
+
+<br/>
 
 ## Reference
 - [Babel 직접 적용하며 이해하기](https://velog.io/@suyeon9456/Babel)
