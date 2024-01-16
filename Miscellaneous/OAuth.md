@@ -4,4 +4,6 @@
 <br/>
 
 ## OAuth란?
-- 권한 부여를 위한 공개된 인증 프로토콜 (접근 권한을 위임하는 개방형 표준 프로토콜)
+- Open standard for Authorization, Open Authorization
+- **권한 부여(인가)를 위한 공개된 인증 프로토콜** (접근 권한을 위임하는 개방형 표준 프로토콜)
+- 대표적인 예시 : SNS 로그인, Google 로그인, Github 로그인, Apple 로그인 등
