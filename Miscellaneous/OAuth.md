@@ -7,3 +7,11 @@
 - Open standard for Authorization, Open Authorization
 - **권한 부여(인가)를 위한 공개된 인증 프로토콜** (접근 권한을 위임하는 개방형 표준 프로토콜)
 - 대표적인 예시 : SNS 로그인, Google 로그인, Github 로그인, Apple 로그인 등
+
+<br/>
+
+## OAuth 2.0
+- 비브라우저 기반의 OAuth 흐름
+- HTTPS 필수 사용
+- 전자서명 단순화
+- 액세스 토큰의 생명주기 감소 + 리프래시 토큰 발급
