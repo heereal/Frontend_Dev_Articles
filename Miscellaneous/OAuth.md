@@ -16,3 +16,8 @@
 - 전자서명 단순화
 - 액세스 토큰의 생명주기 감소 + 리프래시 토큰 발급
 - 요청을 처리하는 서버와 사용자 인증을 위한 서버의 역할을 명확히 구분
+
+<br/>
+
+## OAuth의 구성 요소
+![image (14)](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/292d0624-feb6-49c5-81a3-78bd5095e59c)
