@@ -21,3 +21,8 @@
 
 ## OAuth의 구성 요소
 ![image (14)](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/292d0624-feb6-49c5-81a3-78bd5095e59c)
+
+### 1. 자원 소유자 (Resource Owner)
+- 자원 소유자 혹은 개인이 클라이언트에 접근중일 경우에는 사용자라고 한다.
+- 보호 자원에 대한 접근 권한을 가지고 있으며, 인증 정보를 제공해서 액세스 권한을 허용할 수 있다.
+- 예시: Github 로그인을 하려고 하는 사람
