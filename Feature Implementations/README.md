@@ -29,7 +29,7 @@
 
 <br/>
 
-## 라이브러리 없이 Toast 만들기
+## Toast 만들기
 ![image](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/24321fe7-99a4-4610-9ba6-224ccc1e2cba)
 > [라이브러리 없이 Toast 만들기(feat. TailwindCSS, recoil)](https://velog.io/@pexe99/Boarlog-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%86%EC%9D%B4-Toast-%EB%A7%8C%EB%93%A4%EA%B8%B0feat.-TailwindCSS-recoil)
 - `recoil`과 `TailwindCSS`, `createPortal`을 사용해서 직접 toast를 구현한다.
@@ -40,3 +40,11 @@
 ![flip](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/fed260f8-0526-4fa1-8db4-d6eb66dc0521)
 > [[Boarlog] 아름다운 카드 Flip 효과 구현하기](https://velog.io/@pexe99/Boarlog-%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4-%EC%B9%B4%EB%93%9C-Flip-%ED%9A%A8%EA%B3%BC-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 - CSS로 카드를 앞뒤로 뒤집는 애니메이션 효과를 구현한다.
+
+<br/>
+
+## 플립 시계 카운터 만들기
+<img src="https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/d77eb882-dd3b-4715-ba80-d0959eb2def1" width="400px">
+
+> [라이브러리 없이 Vanilla CSS 만으로 플립 시계 카운터 (Flip Counter) 만들기](https://velog.io/@medistream/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%86%EC%9D%B4-Vanilla-CSS-%EB%A7%8C%EC%9C%BC%EB%A1%9C-%ED%94%8C%EB%A6%BD-%EC%B9%B4%EC%9A%B4%ED%84%B0-Flip-Counter-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- HTML, CSS, JS 만으로 플립 카운터 애니메이션을 구현한다.
