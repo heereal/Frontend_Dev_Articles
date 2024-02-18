@@ -20,9 +20,11 @@
 - [useEffect vs useLayoutEffect](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/useEffect_vs_useLayoutEffect.md)
 - [useState vs useRef](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/useState_vs_useRef.md)
 - [리액트 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React_Performance_Optimizations.md)
+- [Controlled vs. Uncontrolled inputs](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/Controlled_vs_Uncontrolled_inputs.md)
 
 ### React 공식 문서
 - [State as a Snapshot](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/State_as_a_Snapshot.md)
+- [Queueing a Series of State Updates](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/Queueing_a_Series_of_State%20_Updates.md)
 - [Sharing State Between Components](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/Sharing_State_Between_Components.md)
 - [useLayoutEffect](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20Documentation/useLayoutEffect.md)
 
@@ -33,12 +35,18 @@
 - [datalist](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/datalist.md)
 - [gif를 video로 대체해야 하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/video.md)
 
+## CSS
+- [Flexbox](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Flexbox.md)
+  
 ## JavaScript
 - [비동기 함수](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Async_Function.md)
 - [이벤트 루프의 실행 과정](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop.md)
 - [이벤트 루프와 Task Queue](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Event_Loop_Task_Queue.md)
 - [호이스팅이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Hoisting.md)
 - [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
+- [메모리 할당](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Memory_Allocation.md)
+- [불변성](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Immutability.md)
+- [Getter & Setter](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Getter_Setter.md)
 - [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [event.target과 event.currentTarget의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/event.target_vs_event.currentTarget.md)
 
@@ -62,14 +70,14 @@
 - [useInfiniteQuery](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/useInfiniteQuery.md)
 - [refetchOnWindowFocus](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/refetchOnWindowFocus.md)
 - [Inside React Query](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Inside_React_Query.md)
+- [initialData](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/initialData.md)
   
 ## 알고리즘
 - [Recursive Call](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithms/Recursive_Call.md)
-  
-### Tree
 - [Depth First Search (DFS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithm/Tree/DFS.md)
 
 ## 자료구조
+- [Linked List](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Data%20Structures/Linked_List.md)
 - [Hash Table](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Data%20Structures/Hash_table.md)
 - [Graph](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Data%20Structures/Graph.md)
 
@@ -107,6 +115,7 @@
 - [Flux](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Architecture/Flux.md)
 
 ## Design Pattern
+- [SOLID 원칙](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/SOLID_Principles.md)
 - [Command Query Separation (CQS)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Pattern/Command_Query_Separation.md)
 - [Return Early Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Return_Early_Pattern.md)
 - [Singleton Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Singleton_Pattern.md)
@@ -119,10 +128,14 @@
 
 ## 기타
 - [Tree Shaking](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Tree_Shaking.md)
+- [Compiling과 Transpiling](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Compiling_Transpiling.md)
+- [Babel](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Babel.md)
 - [Token](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Token.md)
 - [JWT](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/JWT.md)
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
 - [이미지 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Image%20Optimization.md)
+- [SEO](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SEO.md)
+- [Progressive Web App](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/PWA.md)
 - [SVG와 PNG의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SVG.md)
 - [Three.js](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Three.js.md)
 - [ESLint vs Prettier](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/ESLint_vs_Prettier.md)
@@ -136,6 +149,7 @@
 - [SSE(Server Sent Events)로 실시간 채팅 구현하기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#sseserver-sent-events%EB%A1%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 - [라이브러리 없이 Toast 만들기](https://github.com/heereal/Frontend_Dev_Articles/tree/main/Feature%20Implementations#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%86%EC%9D%B4-toast-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [카드 Flip 효과 구현하기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%B9%B4%EB%93%9C-flip-%ED%9A%A8%EA%B3%BC-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+- [플립 시계 카운터 만들기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%ED%94%8C%EB%A6%BD-%EC%8B%9C%EA%B3%84-%EC%B9%B4%EC%9A%B4%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0)
   
 ## 인상 깊은 프로젝트
 - [제품 개발로 5,500만원의 월 수익을 올리는 개발자의 이야기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Projects/README.md#5500%EB%A7%8C%EC%9B%90%EC%9D%98-%EC%9B%94-%EC%88%98%EC%9D%B5%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0)
@@ -143,6 +157,6 @@
 
 ## Mindset
 - [협업을 잘하는 개발자가 되어보자 - 프로그래머가 아니라 문제 해결사가 되자!](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Mindset/README.md#%ED%98%91%EC%97%85%EC%9D%84-%EC%9E%98%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90)
-- [힘들어하는 주니어들을 위하여](https://velog.io/@bo-like-chicken/%ED%9E%98%EB%93%A4%EC%96%B4%ED%95%98%EB%8A%94-%EC%A3%BC%EB%8B%88%EC%96%B4%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%98%EC%97%AC)
+- [힘들어하는 주니어들을 위하여](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Mindset/README.md#%ED%9E%98%EB%93%A4%EC%96%B4%ED%95%98%EB%8A%94-%EC%A3%BC%EB%8B%88%EC%96%B4%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%98%EC%97%AC)
 
   
