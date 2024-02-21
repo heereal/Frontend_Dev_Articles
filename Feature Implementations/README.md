@@ -48,3 +48,11 @@
 
 > [라이브러리 없이 Vanilla CSS 만으로 플립 시계 카운터 (Flip Counter) 만들기](https://velog.io/@medistream/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%86%EC%9D%B4-Vanilla-CSS-%EB%A7%8C%EC%9C%BC%EB%A1%9C-%ED%94%8C%EB%A6%BD-%EC%B9%B4%EC%9A%B4%ED%84%B0-Flip-Counter-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - HTML, CSS, JS 만으로 플립 카운터 애니메이션을 구현한다.
+
+<br/>
+
+## Spline으로 3D 웹 만들기
+![image](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/66574fb3-55fd-428b-8841-7893c4c0378b)
+
+> [하루 만에 혼자 3D 로 신년카드 웹앱을?](https://velog.io/@hmmhmmhm/%ED%95%98%EB%A3%A8%EB%A7%8C%EC%97%90-%ED%98%BC%EC%9E%90-3D-%EB%A1%9C-%EC%8B%A0%EB%85%84%EC%B9%B4%EB%93%9C-%EC%9B%B9%EC%95%B1%EC%9D%84-%ED%95%AD%ED%95%B4-%EC%BD%94%EC%9C%A1%EB%8C%80-2%ED%9A%8C-%ED%9A%8C%EA%B3%A0)
+- Spline을 이용해서 3D 에셋을 배치하고 이벤트를 적용할 수 있는 웹 사이트를 제작한다.
