@@ -7,6 +7,16 @@
   </form>
 </dialog>
 ```
+- `<dialog>` 요소를 통해 커스텀 모달을 생성할 수 있다.
+
+<br/>
+
+```javascript
+document.querySelector("button").addEventListener("click", () => {
+  document.querySelector("dialog").showModal();
+});
+```
+- `showModal()` 함수를 통해 버튼 클릭 시 모달을 띄운다.
 
 <br/>
 
