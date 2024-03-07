@@ -19,3 +19,14 @@
 
 ### Web App Manifest
 - 프로젝트의 루트에 `manifest.json` 파일을 생성해서 **애플리케이션에 스플래시 화면, 아이콘, 이름 등을 추가**할 수 있다.
+
+<br/>
+
+## PWA로 사용 가능한 기능들
+![screencapture-whatpwacando-today-2024-03-07-21_01_45](https://github.com/heereal/Frontend_Dev_Articles/assets/117061017/605e1e86-02f7-4e88-84e0-deb64f97c1c5)
+
+<br/>
+
+## References
+- [How to Make your React App a Progressive Web App (PWA)](https://felixgerschau.com/how-to-make-your-react-app-a-progressive-web-app-pwa/)
+- [What PWA Can Do Today](https://whatpwacando.today/) 
