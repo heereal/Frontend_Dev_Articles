@@ -55,6 +55,85 @@ function App() {
   
 <br/>
 
+## Compound Component Pattern 코드 예시
+```javascript
+const FlyOutContext = createContext();
+
+function FlyOut(props) {
+  const [open, toggle] = useState(false);
+
+  return (
+    <FlyOutContext.Provider value={{ open, toggle }}>
+      {props.children}
+    </FlyOutContext.Provider>
+  );
+}
+```
+- `FlyOut` 컴포넌트는 상태를 보유하고, 모든 자식 컴포넌트에게 토글 값이 포함된 `FlyOutProvider`를 반환한다.
+
+<br/>
+
+```javascript
+const FlyOutContext = createContext();
+
+function FlyOut(props) {
+  const [open, toggle] = useState(false);
+
+  return (
+    <FlyOutContext.Provider value={{ open, toggle }}>
+      {props.children}
+    </FlyOutContext.Provider>
+  );
+}
+
+function Toggle() {
+  const { open, toggle } = useContext(FlyOutContext);
+
+  return (
+    <div onClick={() => toggle(!open)}>
+      <Icon />
+    </div>
+  );
+}
+
+function List({ children }) {
+  const { open } = useContext(FlyOutContext);
+  return open && <ul>{children}</ul>;
+}
+
+function Item({ children }) {
+  return <li>{children}</li>;
+}
+
+FlyOut.Toggle = Toggle;
+FlyOut.List = List;
+FlyOut.Item = Item;
+```
+- `Toggle`, `List`, `Item` 컴포넌트를 `FlyOut` 컴포넌트의 프로퍼티로 만든다.
+- 즉, 어떤 파일에서든 `FlyOut` 컴포넌트를 사용하려면 `FlyOut` 컴포넌트만 import하면 된다.
+
+<br/>
+
+```javascript
+import React from "react";
+import { FlyOut } from "./FlyOut";
+
+export default function FlyoutMenu() {
+  return (
+    <FlyOut>
+      <FlyOut.Toggle />
+      <FlyOut.List>
+        <FlyOut.Item>Edit</FlyOut.Item>
+        <FlyOut.Item>Delete</FlyOut.Item>
+      </FlyOut.List>
+    </FlyOut>
+  );
+}
+```
+- 최종적으로 `FlyoutMenu` 컴포넌트 자체에 상태를 추가하지 않고도 `FlyOut` 컴포넌트 전체를 생성했다.
+
+<br/>
+
 ## Compound Component Pattern의 단점
 1. **학습 곡선**: 리액트에 대한 이해가 부족하다면 CCP를 적용하기 힘들 수 있고, 리액트 사용에 능숙하다고 해도 아무런 학습 없이 바로 CCP를 적용할 수는 없다.
 2. **너무나도 많은 유연성**: CCP는 쉽게 구조를 변경할 수 있어서 유연성이 좋은 편이지만 이것이 처음 CCP를 적용한 개발자의 의도가 아닌 전혀 다른 방식으로 컴포넌트를 사용하는 상황이 발생할 가능성도 존재한다.
@@ -64,3 +143,4 @@ function App() {
 
 ## References
 - [React Compound 패턴 적용하기](https://velog.io/@junhopportunity/React-Compound-%ED%8C%A8%ED%84%B4-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [Compound Pattern](https://www.patterns.dev/react/compound-pattern/)
