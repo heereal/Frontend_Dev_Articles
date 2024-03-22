@@ -3,6 +3,8 @@
 매일 출퇴근길에 읽은 기술 아티클 중에서   
 다시 한 번 읽어 보면 좋을 글들을 링크와 함께 요약해서 기록합니다.
 
+*Last Updated 2024.03.22*
+
 <br/>
 
 ## React
@@ -33,10 +35,14 @@
 
 ## HTML
 - [datalist](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/datalist.md)
+- [dialog](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/dialog.md)
+- [Accordions](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/Accordions.md)
 - [gif를 video로 대체해야 하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/video.md)
 
 ## CSS
 - [Flexbox](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Flexbox.md)
+- [Transition](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Transition.md)
+- [Modern CSS Properties](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Modern_CSS_Properties.md)
   
 ## JavaScript
 - [비동기 함수](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Async_Function.md)
@@ -46,12 +52,15 @@
 - [프로토타입이란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Prototype.md)
 - [메모리 할당](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Memory_Allocation.md)
 - [불변성](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Immutability.md)
+- [Compile](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Compile.md)
+- [References](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/References.md)
 - [Getter & Setter](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Getter_Setter.md)
 - [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [event.target과 event.currentTarget의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/event.target_vs_event.currentTarget.md)
 
 ## TypeScript
 - [Generic](https://github.com/heereal/Frontend_Dev_Articles/blob/main/TypeScript/Generic.md)
+- [typeof keyof](https://github.com/heereal/Frontend_Dev_Articles/blob/main/TypeScript/typeof_keyof.md)
   
 ## Next.js
 - [초기 세팅](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Next.js/Initialization.md)
@@ -71,6 +80,7 @@
 - [refetchOnWindowFocus](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/refetchOnWindowFocus.md)
 - [Inside React Query](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Inside_React_Query.md)
 - [initialData](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/initialData.md)
+- [데이터 변환](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Data_Transformations.md)
   
 ## 알고리즘
 - [Recursive Call](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithms/Recursive_Call.md)
@@ -88,6 +98,7 @@
 - [Server Side Rendering (SSR)](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Rendering%20Strategies/SSR.md)
 
 ## Network
+- [CDN](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/CDN.md)
 - [CORS](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/CORS.md)
 - [HTTP 캐시란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/HTTP_Cache.md)
 - [Query Parameter vs Path Variable](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/Query_Parameter_vs_Path_Variable.md)
@@ -121,6 +132,7 @@
 - [Singleton Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Singleton_Pattern.md)
 - [Chain of Responsibility Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Chain_of_Responsibility_Pattern.md)
 - [Template Method Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Template_Method_Pattern.md)
+- [Compound Component Pattern](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Design%20Patterns/Compound_Component_Pattern.md)
 
 ## Web API
 - [Blob](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Web%20APIs/Blob.md)
@@ -134,6 +146,7 @@
 - [JWT](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/JWT.md)
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
 - [이미지 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Image%20Optimization.md)
+- [robots.txt](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/robots.txt.md)
 - [SEO](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SEO.md)
 - [Progressive Web App](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/PWA.md)
 - [SVG와 PNG의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SVG.md)
@@ -141,6 +154,8 @@
 - [ESLint vs Prettier](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/ESLint_vs_Prettier.md)
 - [Unicode](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Unicode.md)
 - [Web 3.0의 특징](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_3.0.md)
+- [생성형 AI](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Generative_AI.md)
+- [Action-Driven Animation](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Action-Driven_Animation.md)
   
 ## 기능 구현
 - [상품 상세페이지 더보기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%8D%94%EB%B3%B4%EA%B8%B0)
@@ -150,6 +165,7 @@
 - [라이브러리 없이 Toast 만들기](https://github.com/heereal/Frontend_Dev_Articles/tree/main/Feature%20Implementations#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%97%86%EC%9D%B4-toast-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 - [카드 Flip 효과 구현하기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%EC%B9%B4%EB%93%9C-flip-%ED%9A%A8%EA%B3%BC-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 - [플립 시계 카운터 만들기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#%ED%94%8C%EB%A6%BD-%EC%8B%9C%EA%B3%84-%EC%B9%B4%EC%9A%B4%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [Spline으로 3D 웹 만들기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Feature%20Implementations/README.md#spline%EC%9C%BC%EB%A1%9C-3d-%EC%9B%B9-%EB%A7%8C%EB%93%A4%EA%B8%B0)
   
 ## 인상 깊은 프로젝트
 - [제품 개발로 5,500만원의 월 수익을 올리는 개발자의 이야기](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Projects/README.md#5500%EB%A7%8C%EC%9B%90%EC%9D%98-%EC%9B%94-%EC%88%98%EC%9D%B5%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9D%B4%EC%95%BC%EA%B8%B0)
