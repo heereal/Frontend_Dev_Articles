@@ -42,6 +42,7 @@
 ## CSS
 - [Flexbox](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Flexbox.md)
 - [Transition](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Transition.md)
+- [Centering](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Centering.md)
 - [Modern CSS Properties](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Modern_CSS_Properties.md)
   
 ## JavaScript
