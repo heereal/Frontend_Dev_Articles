@@ -1,9 +1,7 @@
 # Frontend Dev Articles
+다시 한 번 읽어 보면 좋을 기술 아티클을 링크와 함께 요약해서 기록합니다.
 
-매일 출퇴근길에 읽은 기술 아티클 중에서   
-다시 한 번 읽어 보면 좋을 글들을 링크와 함께 요약해서 기록합니다.
-
-*Last Updated 2024.03.22*
+*Last Updated 2024.04.17*
 
 <br/>
 
@@ -34,6 +32,7 @@
 - [Recoil](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React/React%20State%20Management%20Libraries/Recoil.md)
 
 ## HTML
+- [a 태그](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/a.md)
 - [datalist](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/datalist.md)
 - [dialog](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/dialog.md)
 - [Accordions](https://github.com/heereal/Frontend_Dev_Articles/blob/main/HTML/Accordions.md)
@@ -43,6 +42,7 @@
 - [Flexbox](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Flexbox.md)
 - [Transition](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Transition.md)
 - [Centering](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Centering.md)
+- [CSS Logical Properties](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/CSS_Logical_Properties.md)
 - [Modern CSS Properties](https://github.com/heereal/Frontend_Dev_Articles/blob/main/CSS/Modern_CSS_Properties.md)
   
 ## JavaScript
@@ -58,6 +58,7 @@
 - [Getter & Setter](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/Getter_Setter.md)
 - [every()가 빈 배열에 true를 반환하는 이유](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/every.md)
 - [event.target과 event.currentTarget의 차이점](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/event.target_vs_event.currentTarget.md)
+- [자바스크립트 로딩 속도를 높이는 방법](https://github.com/heereal/Frontend_Dev_Articles/blob/main/JavaScript/JavaScript_Optimization.md)
 
 ## TypeScript
 - [Generic](https://github.com/heereal/Frontend_Dev_Articles/blob/main/TypeScript/Generic.md)
@@ -82,6 +83,7 @@
 - [Inside React Query](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Inside_React_Query.md)
 - [initialData](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/initialData.md)
 - [데이터 변환](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Data_Transformations.md)
+- [Tracked Queries](https://github.com/heereal/Frontend_Dev_Articles/blob/main/React%20Query/Tracked_Queries.md)
   
 ## 알고리즘
 - [Recursive Call](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Algorithms/Recursive_Call.md)
@@ -104,6 +106,7 @@
 - [HTTP 캐시란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/HTTP_Cache.md)
 - [Query Parameter vs Path Variable](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/Query_Parameter_vs_Path_Variable.md)
 - [멱등성](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/Idempotency.md)
+- [IPv4 vs IPv6](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Network/IPv4_vs_IPv6.md)
 
 ## Module Bundlers
 - [번들러란?](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Module%20Bundlers/README.md)
@@ -146,6 +149,7 @@
 - [Token](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Token.md)
 - [JWT](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/JWT.md)
 - [Web Font](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font.md)
+- [웹 폰트 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Web_Font_Optimization.md)
 - [이미지 최적화](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/Image%20Optimization.md)
 - [robots.txt](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/robots.txt.md)
 - [SEO](https://github.com/heereal/Frontend_Dev_Articles/blob/main/Miscellaneous/SEO.md)
